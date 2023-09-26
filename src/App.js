@@ -56,7 +56,7 @@ const App = () => {
         }
       );
     }
-  },[unit]);
+  },[]);
   return (
     <div className='main-container'>
     <h1 className='headingg'>Welcome to weather app</h1>
