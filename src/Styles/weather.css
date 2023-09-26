@@ -1,0 +1,42 @@
+.weather-head{
+    font-size: 30px;
+    color: rgba(0, 0, 0);
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+}
+.main-container-weth{
+    background-color: rgba(240, 248, 255);
+    display: flex;
+    width: 600px;
+    padding: auto;
+    border: 1px solid black;
+    flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 0.3;
+  border-radius: 20px;
+
+
+    /* height: 300px; */
+    /* margin-top: 100px; */
+}
+.temp{
+    font-size: 28px;
+}
+.condition{
+    font-size: 20px;
+}
+.img{
+    width: 100px;
+    object-fit: cover;
+}
+
+@media screen and (max-width:700px){
+  .main-container-weth{
+    width: 90%;
+    border-radius: 20px;
+  }
+
+  
+}

@@ -1,0 +1,26 @@
+.unit-toggle {
+    /* display: inline-block; */
+    display: flex;
+    /* background-color: aquamarine; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .unit-btn {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .text-unit{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.7);
+    align-items: center;
+  }
+  
+  .unit-btn.active {
+    background-color: #d2f6b9; /* Change color for active state */
+    color: #141313; /* Change color for active state */
+  }
